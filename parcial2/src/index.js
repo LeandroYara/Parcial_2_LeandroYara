@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import ListaCafe from './components/listaCafe';
+import ListaCafe from './components/ListaCafe';
+import Login from './components/Login';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ListaCafe />
+    < Login />
   </React.StrictMode>
 );
 

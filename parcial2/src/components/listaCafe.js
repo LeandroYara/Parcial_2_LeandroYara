@@ -1,4 +1,4 @@
-import GeneralCafe from './generalCafe';
+import GeneralCafe from './GeneralCafe';
 import banner from './assets/images/imagenCafe.PNG';
 
 const { useEffect, useState } = require("react");
