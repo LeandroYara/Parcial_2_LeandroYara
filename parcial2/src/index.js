@@ -1,16 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import {IntlProvider} from 'react-intl';
+import localeEnMessages from './locales/en.json';
+import localeEsMessages from './locales/es.json';
 import App from './App';
-import ListaCafe from './components/ListaCafe';
-import Login from './components/Login';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+<script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const messages = {
+  'en': localeEnMessages,
+  'es': localeEsMessages
+};
+
+const language = navigator.language.split(/[-_]/)[0];
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    < Login />
+    <IntlProvider locale={navigator.language} messages={messages[language]}>
+      <App />    
+    </IntlProvider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "IndieFlower";
+    src: local("IndieFlower"),
+    url("./assets/fonts/IndieFlower.ttf") format("truetype");
+  }
+
+.font-face {
+    font-family: "IndieFlower";
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 3px 2px 4px black;
+}
+
+.Coffee-img {
+    float: center;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.orange-div{
+    background-color: seashell;
+}
+
+.thick {
+    font-weight: bold;
+  }
+
+.thick-resize {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.image-banner {
+    width: 1260px ;
+    height: 250px
+}

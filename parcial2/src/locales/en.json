@@ -1,0 +1,14 @@
+{
+    "InicioSesion": "Login",
+    "Usuario": "Username",
+    "Contrasena": "Password",
+    "Ingresar": "Log in",
+    "Cancelar": "Cancel",
+    "MensajeError": "Authentication error. Check your credentials",
+    "Nombre": "Name",
+    "Tipo": "Type",
+    "Region": "Region",
+    "Notas": "Notes",
+    "TCultivo": "Grown at a height of ",
+    "msnm": "masl"
+}
